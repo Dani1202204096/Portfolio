@@ -8,10 +8,12 @@
 }
 
 header {
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 10%;
+  padding: 35px 5%;
+  width: 100%;
 }
 
 /* .navbar {
@@ -25,10 +27,10 @@ header {
   font-family: "Montserrat";
 }
 
-li, a {
+li, a, button {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   color: #edf0f1;
   text-decoration: none;
 }
@@ -37,9 +39,10 @@ li, a {
     cursor:pointer;
 }
 
-.contact {
+.contact button {
   font-family: "Montserrat";
   font-weight: 500;
+  color: black;
 }
 
 .nav_links {
@@ -48,7 +51,7 @@ li, a {
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 40px;
 }
 
 .nav_links li a {
@@ -112,10 +115,45 @@ h4 {
 }
 .home .home-content .text-1 {
   font-size: 27px;
-  margin-left: 120px;
+  margin-left: 40px;
 }
 .home .home-content .text-2 {
   font-size: 75px;
   font-weight: 600;
-  margin-left: 115px;
+  margin-left: 35px;
 }
+
+section {
+  padding: 200px 0;
+}
+
+.about {
+  font-family: "Montserrat";
+  /* background: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80") no-repeat center; */
+  height: 100vh;
+  min-height:500px;
+  color: black;
+
+}
+
+.about .title {
+  position: relative;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 60px;
+  padding-bottom:60px;
+  text-align: center;
+  color: white
+}
+
+.about .text-1-about-me {
+  margin-left: 70px;
+  margin-right: 942px;
+  color: white
+}
+/* .about .about-content .left img {
+  height: 100%;
+  width: 100%;
+
+} */
