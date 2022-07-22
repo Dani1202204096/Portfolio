@@ -4,7 +4,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #24252A;
 }
 
 header {
@@ -12,15 +11,15 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 35px 5%;
+  padding: 25px 5%;
   width: 100%;
+  background-color: #24252A;
 }
 
-/* .navbar {
-  width: 800px;
-  height: 100px;
-  background-color: white;
-} */
+.home {
+  display: flex;
+  background-color: #24252A;
+}
 .logo {
   color: #FFDB5D;
   font-weight: bold;
@@ -132,28 +131,57 @@ section {
   /* background: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80") no-repeat center; */
   height: 100vh;
   min-height:500px;
-  color: black;
+  background: black;
 
 }
 
 .about .title {
-  position: relative;
   font-family: "Montserrat";
   font-weight: 500;
   font-size: 36px;
-  margin-bottom: 60px;
-  padding-bottom:60px;
-  text-align: center;
-  color: white
+  padding-bottom:48px;
+  text-align: left;
+  color: #FFDB5D
 }
 
-.about .text-1-about-me {
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  width: 100%;
+  margin: 10rem auto 0 a;
+}
+.about-content img{
+  height: 420px;
+  object-fit: cover;
+}
+.about-content .column-left {
+  margin: 72px;
+  color: white;
+}
+
+/* .about .text-1-about-me {
   margin-left: 70px;
   margin-right: 942px;
   color: white
+} */
+/* .about .about-content {
+  display: block;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
-/* .about .about-content .left img {
-  height: 100%;
+.about .about-content .right{
   width: 100%;
+}
 
+.about .about-content .right img {
+  float:right;
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.about .about-content .left {
+  width: 55%;
 } */
