@@ -160,6 +160,34 @@ section {
   color: white;
 }
 
+.portfolio {
+  display: flex;
+  font-family: "Montserrat";
+  justify-content: center;
+  height: 100vh;
+  min-height:500px;
+  
+}
+.portfolio-content img{
+  width: 265px;
+  height: 210px;
+  border-radius:.5rem;
+  justify-content: center;
+}
+
+.demo button {
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: black;
+}
+
+.portfolio-title1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 42px;
+  margin: 10px auto;
+}
+
 /* .about .text-1-about-me {
   margin-left: 70px; 
   margin-right: 942px;
