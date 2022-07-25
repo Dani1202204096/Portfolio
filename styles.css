@@ -11,7 +11,7 @@ html {
 }
 
 header {
-  position: fixed;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -83,29 +83,6 @@ button:hover {
   background-color: #FFD337;
 }
 
-/* .content {
-  position: absolute;
-  top: 50%;
-  left: 8%;
-  transform: translateY(-50%);
-} */
-/* h1 {
-  color: white;
-  font-size: 25px 0px 20px;
-  margin: 75px;
-}
-
-h3 {
-  color: white;
-  font-size: 25px;
-  margin-bottom: 50px;
-}
-
-h4 {
-  color: white;
-  letter-spacing:2px;
-  font-size: 20px;
-} */
 
 /* ==== Home section ===== */
 
@@ -166,18 +143,18 @@ h4 {
 }
 .about-content img{
   height: 420px;
-  object-fit: cover;
-  margin-left: 64px;
+  width: auto;
+  /* object-fit: cover; */
+  margin-left: 16px;
 }
 .about-content .column-left {
-  margin: 100px;
-  margin-left: 180px;
+  margin: 90px;
+  margin-left: 100px;
   color: white;
 }
 
 .portfolio {
   padding: 120px 0;
-  /* display: inline-block; */
   font-family: "Montserrat";
   justify-content: center;
   height: 100vh;
@@ -241,11 +218,11 @@ h4 {
 }
 
 .square:hover {
-    -webkit-transform: translate(20px, -10px);
-    -ms-transform: translate(10px, -10px);
-    transform: translate(10px, -10px);
-    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  -webkit-transform: translate(20px, -10px);
+  -ms-transform: translate(10px, -10px);
+  transform: translate(10px, -10px);
+  -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
      }
 
 
